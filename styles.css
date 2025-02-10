@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    color: white;
+    background: #ff6b6b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features, .demo {
+    padding: 60px 20px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
